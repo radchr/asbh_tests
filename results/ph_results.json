@@ -1,0 +1,19 @@
+{
+  "geodesic": {
+    "H0_significant": 8,
+    "H1_significant": 0,
+    "H2_significant": 0,
+    "H2_lifespan": 0.0,
+    "p_vs_null": 1.0,
+    "null_mean": 0.100857,
+    "null_std": 0.136032,
+    "threshold": 0.304827
+  },
+  "euclidean": {
+    "H0_significant": 12,
+    "H1_significant": 0,
+    "H2_significant": 0,
+    "H2_lifespan": 0.0,
+    "threshold": 0.764771
+  }
+}

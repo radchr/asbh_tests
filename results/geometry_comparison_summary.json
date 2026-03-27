@@ -1,0 +1,74 @@
+{
+  "part_A_geometry_correlation": {
+    "spearman_rho_averaged": 0.658,
+    "spearman_p": 0.0,
+    "per_movie_rho_mean": 0.5446,
+    "per_movie_rho_std": 0.1256,
+    "n_movies": 14,
+    "n_movies_skipped": 0,
+    "skipped_movies": [],
+    "interpretation": "S2-geodesic and behavioral correlation-distance are positively correlated (rho=0.658), suggesting VAD-sphere distances partially capture behavioral emotion similarity."
+  },
+  "part_B_decoding_by_region": {
+    "vmPFC_mds1_mean": 0.1024,
+    "vmPFC_mds1_sd": 0.0445,
+    "vmPFC_mds2_mean": 0.0878,
+    "vmPFC_mds2_sd": 0.0504,
+    "vmPFC_mean_mean": 0.0951,
+    "HC_mean_mean": 0.0427,
+    "ERC_mean_mean": 0.0271,
+    "paired_ttests": {
+      "vmPFC vs HC": {
+        "t": 6.2121,
+        "p": 0.0,
+        "N": 29
+      },
+      "vmPFC vs ERC": {
+        "t": 7.453,
+        "p": 0.0,
+        "N": 29
+      },
+      "HC vs ERC": {
+        "t": 2.892,
+        "p": 0.0073,
+        "N": 29
+      }
+    },
+    "vmPFC_better_than_HC_pct": 86.2
+  },
+  "part_C_peripherality": {
+    "spearman_rho_vmPFC": -0.3956,
+    "spearman_p_vmPFC": 0.1809,
+    "peripherality": {
+      "Anger": 2.671,
+      "Anxiety": 3.083,
+      "Fear": 2.8995,
+      "Surprise": 2.9064,
+      "Guilt": 2.835,
+      "Disgust": 1.6876,
+      "Sad": 3.4693,
+      "Regard": 2.233,
+      "Satisfaction": 3.1841,
+      "WarmHeartedness": 2.9312,
+      "Happiness": 4.2459,
+      "Pride": 1.7974,
+      "Love": 3.1585
+    },
+    "vmPFC_decoding_mean": {
+      "Anger": 0.0691,
+      "Anxiety": 0.142,
+      "Fear": 0.1248,
+      "Surprise": 0.1792,
+      "Guilt": 0.0792,
+      "Disgust": 0.1293,
+      "Sad": 0.0226,
+      "Regard": 0.0461,
+      "Satisfaction": 0.0601,
+      "WarmHeartedness": 0.0667,
+      "Happiness": 0.0651,
+      "Pride": 0.066,
+      "Love": 0.0327
+    },
+    "ASBH_prediction": "ASBH predicts extremal emotions (Fear, Disgust, Love) are most geometrically separated on S2 and thus most decodable by vmPFC."
+  }
+}

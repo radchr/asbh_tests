@@ -1,0 +1,9 @@
+{
+  "lambda_V": 0.6,
+  "lambda_A": 1.0,
+  "lambda_D": 2.3,
+  "rho": 0.6991,
+  "round_S2_rho": 0.658,
+  "improvement_over_round": 0.0411,
+  "prediction_V_gt_D_gt_A": false
+}

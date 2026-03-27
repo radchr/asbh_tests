@@ -1,0 +1,38 @@
+{
+  "M0 (null)": {
+    "k": 0,
+    "rss": 13.03997,
+    "desc": "constant prediction",
+    "AIC": -139.518,
+    "BIC": -139.518,
+    "delta_AIC": 58.452,
+    "delta_BIC": 58.452
+  },
+  "M1 (round S2)": {
+    "k": 0,
+    "rss": 6.1634,
+    "desc": "lambda=1,1,1",
+    "AIC": -197.97,
+    "BIC": -197.97,
+    "delta_AIC": 0.0,
+    "delta_BIC": 0.0
+  },
+  "M2 (ellipsoid)": {
+    "k": 2,
+    "rss": 5.89536,
+    "desc": "lV=0.6,lD=2.3",
+    "AIC": -197.438,
+    "BIC": -192.725,
+    "delta_AIC": 0.532,
+    "delta_BIC": 5.245
+  },
+  "M3 (ell+pot)": {
+    "k": 3,
+    "rss": 5.11036,
+    "desc": "above + beta=0.5",
+    "AIC": -206.584,
+    "BIC": -199.514,
+    "delta_AIC": -8.614,
+    "delta_BIC": -1.544
+  }
+}

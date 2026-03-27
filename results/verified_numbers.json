@@ -1,0 +1,101 @@
+{
+  "n_pairs": 78,
+  "n_films_used": 14,
+  "films_used": [
+    "AfterTheRain",
+    "BetweenViewings",
+    "BigBuckBunny",
+    "Chatter",
+    "FirstBite",
+    "LessonLearned",
+    "Payload",
+    "Sintel",
+    "Spaceman",
+    "Superhero",
+    "TearsOfSteel",
+    "TheSecretNumber",
+    "ToClaireFromSonny",
+    "YouAgain"
+  ],
+  "behavioral_similarity_method": "pearson_correlation_across_films_1_minus_r",
+  "model_comparison_verified": {
+    "k_convention": "k_total = k_model + 1 (scale parameter included)",
+    "M0_k": 1,
+    "M0_RSS": 13.03997,
+    "M0_AIC": -137.518,
+    "M0_BIC": -135.161,
+    "M1_k": 1,
+    "M1_RSS": 11.02351,
+    "M1_AIC": -150.621,
+    "M1_BIC": -148.264,
+    "M2_k": 3,
+    "M2_RSS": 9.72342,
+    "M2_AIC": -156.409,
+    "M2_BIC": -149.339,
+    "M3_k": 4,
+    "M3_RSS": 8.34381,
+    "M3_AIC": -166.345,
+    "M3_BIC": -156.918,
+    "delta_AIC_M3_vs_M1": -15.724,
+    "delta_BIC_M3_vs_M1": -8.654
+  },
+  "correlations_verified": {
+    "rho_round_s2_behavioral": 0.658,
+    "rho_round_s2_behavioral_CI95": [
+      0.53,
+      0.7418
+    ],
+    "rho_M3_behavioral": 0.7231,
+    "rho_M3_behavioral_CI95": [
+      0.6171,
+      0.7886
+    ],
+    "partial_rho_holonomy": 0.5569,
+    "partial_rho_holonomy_CI95": [
+      0.5381,
+      0.5748
+    ],
+    "n_loops_holonomy": 6298
+  },
+  "beta_sensitivity": {
+    "beta_values_tested": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      1.0
+    ],
+    "rho_per_beta": [
+      0.7076,
+      0.7176,
+      0.7263,
+      0.7257,
+      0.7231,
+      0.7225,
+      0.7195,
+      0.7209,
+      0.7147
+    ],
+    "optimal_beta": 0.3,
+    "rho_at_optimal": 0.7263,
+    "monotone_before_optimal": true,
+    "stable_range": [
+      0.3,
+      0.6
+    ],
+    "stable_criterion": "within 0.005 of optimum rho"
+  },
+  "discrepancy_resolved": {
+    "test08_console_value": -206.6,
+    "test08_console_label": "AIC_M3 absolute value (vs null M0 baseline)",
+    "final_report_delta_AIC": -8.6,
+    "final_report_label": "delta_AIC(M3 vs M1 round S2)",
+    "verified_delta_AIC_M3_vs_M1": -15.724,
+    "verified_delta_AIC_M3_vs_M0": -28.827,
+    "explanation": "test08 printed 'ΔAIC=−206.6' = absolute AIC value of M3 model. asbh_key_numbers.json 'delta_AIC_M3_vs_M1' = −8.6 = AIC_M3 − AIC_M1 (round S2). Additionally test08 used k_model (0,0,2,3) without +1 for the scale parameter; this reanalysis uses k_total = k_model + 1 giving slightly different absolute values. Verified ΔAIC(M3 vs M1) with consistent k_total convention = -15.724."
+  }
+}

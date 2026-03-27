@@ -1,0 +1,14 @@
+{
+  "n_polar": 144,
+  "n_regular": 9442,
+  "polar_ratio_mean": 0.02872,
+  "polar_ratio_sd": 0.02298,
+  "nonpolar_ratio_mean": 0.01205,
+  "nonpolar_ratio_sd": 0.01584,
+  "t_stat": 8.6424,
+  "p_value": 0.0,
+  "ks_D": 0.6631,
+  "ks_p": 0.0,
+  "asbh_supported": true,
+  "interpretation": "ASBH SUPPORTED: geodesic/MDS ratio is significantly larger for valence-polar transitions, indicating S\u00b2 stretches cross-pole distances relative to the flat MDS embedding."
+}

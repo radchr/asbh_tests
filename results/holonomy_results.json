@@ -1,0 +1,88 @@
+{
+  "n_loops": 263,
+  "mean_omega": 0.02009,
+  "std_omega": 0.17822,
+  "mean_closure": 0.28941,
+  "corr_omega_closure": {
+    "spearman_rho": 0.7388,
+    "p_value": 0.0,
+    "partial_rho": 0.3822,
+    "partial_p": 0.0
+  },
+  "corr_omega_length": {
+    "spearman_rho": 0.8377
+  },
+  "per_movie": {
+    "AfterTheRain": {
+      "n_loops": 11,
+      "mean_omega": 0.00968,
+      "mean_closure": 0.49012
+    },
+    "BetweenViewings": {
+      "n_loops": 24,
+      "mean_omega": 0.00462,
+      "mean_closure": 0.26047
+    },
+    "BigBuckBunny": {
+      "n_loops": 13,
+      "mean_omega": 0.00495,
+      "mean_closure": 0.2699
+    },
+    "Chatter": {
+      "n_loops": 11,
+      "mean_omega": 0.00656,
+      "mean_closure": 0.3552
+    },
+    "FirstBite": {
+      "n_loops": 17,
+      "mean_omega": 0.00183,
+      "mean_closure": 0.14676
+    },
+    "LessonLearned": {
+      "n_loops": 15,
+      "mean_omega": 0.00917,
+      "mean_closure": 0.44107
+    },
+    "Payload": {
+      "n_loops": 27,
+      "mean_omega": 0.01621,
+      "mean_closure": 0.38062
+    },
+    "Sintel": {
+      "n_loops": 19,
+      "mean_omega": 0.01788,
+      "mean_closure": 0.29857
+    },
+    "Spaceman": {
+      "n_loops": 24,
+      "mean_omega": 0.0205,
+      "mean_closure": 0.12859
+    },
+    "Superhero": {
+      "n_loops": 28,
+      "mean_omega": 0.11015,
+      "mean_closure": 0.27156
+    },
+    "TearsOfSteel": {
+      "n_loops": 18,
+      "mean_omega": 0.0042,
+      "mean_closure": 0.28564
+    },
+    "TheSecretNumber": {
+      "n_loops": 21,
+      "mean_omega": 0.00732,
+      "mean_closure": 0.28089
+    },
+    "ToClaireFromSonny": {
+      "n_loops": 12,
+      "mean_omega": 0.00203,
+      "mean_closure": 0.19485
+    },
+    "YouAgain": {
+      "n_loops": 23,
+      "mean_omega": 0.00669,
+      "mean_closure": 0.34463
+    }
+  },
+  "interpretation": "Spearman rho(Omega, closure) = 0.739 (p=1.222e-46). ASBH SUPPORTED: larger solid angle correlates with larger closure error, consistent with non-trivial holonomy on S2."
+}

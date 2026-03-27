@@ -1,0 +1,15 @@
+film,spearman_rho,p_value,n_timepoints
+AfterTheRain,0.7175,0.0,495
+BetweenViewings,0.7535,0.0,807
+BigBuckBunny,0.6951,0.0,489
+Chatter,0.6506,0.0,404
+FirstBite,0.755,0.0,598
+LessonLearned,0.7249,0.0,666
+Payload,0.7311,0.0,1007
+Sintel,0.6921,0.0,721
+Spaceman,0.6401,0.0,804
+Superhero,0.6882,0.0,1027
+TearsOfSteel,0.6871,0.0,587
+TheSecretNumber,0.76,0.0,783
+ToClaireFromSonny,0.7312,0.0,401
+YouAgain,0.6307,0.0,797

@@ -1,0 +1,4 @@
+projection,spearman_rho,p_value,var_explained
+V-A,0.6564,0.0,0.3165
+V-D,0.6376,0.0,0.3135
+A-D,0.7098,0.0,0.3335
